@@ -9,6 +9,6 @@ def oxford_comma(array)
         item = item + ', '
       else
         item = " and " + items
-    end
+      end
   end
 end
