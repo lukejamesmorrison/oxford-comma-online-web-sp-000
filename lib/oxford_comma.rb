@@ -5,10 +5,10 @@ def oxford_comma(array)
     array.each_with_index do |item, index|
       if index == 0
         item
-      elsif index != array.length - 1
+      elsif index == array.length - 1
         item = " and " + item
       else
-        item = item + ','
+        item = item + ', '
     end
   end
 end
