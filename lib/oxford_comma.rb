@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  array.collect do |item|
+  array.collect! do |item|
     if array.first == item
       item
     elsif array.last == item
