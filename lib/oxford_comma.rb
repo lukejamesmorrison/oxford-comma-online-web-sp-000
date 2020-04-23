@@ -8,4 +8,6 @@ def oxford_comma(array)
       ", ${item}"
     end
   end
+
+  array.join
 end
