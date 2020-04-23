@@ -7,7 +7,7 @@ def oxford_comma(array)
         item
       elsif index == array.length - 1
         item = " and " + item
-      else 
+      else
         item = item + ','
     end
   end
